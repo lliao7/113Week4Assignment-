@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	
+	
+	.header .logo{
+		width:15%;
+		float:left;
+		
+	}
+		
+	
+	form{
+		float:right;
+	    padding-top:120px;
+	}
+	
+	 nav{
+		 background-color: lavender;
+		 margin-top:10px;
+		 margin-bottom: 20px;
+	   }
+
+    a{
+		text-decoration: none;
+	    color:black;
+}
+	
+   nav a{
+	font-family: sans-serif;
+	width: 30px;
+	font-size: 18px;
+	padding:0 5px;
+	margin:20px;
+	}
+	
+   nav a.active{
+	background-color:#E1C2C2;
+	}
+	
+	
+	nav.rightNav a{
+		margin-left:0;
+		padding-left:0;
+		
+	}
+
+
+   main img{
+	width: 100%;
+	padding:15px 5px;
+		  }	
+	
+	
+	footer{
+		margin-top:10px;
+		background-color:#F6EFEF;
+	}
+	
+	footer h1{
+		font-size:15px;
+	}
+	
+	footer a{
+		display:block;
+		font-size: 13px;
+	}
+	
+ </style>
+	
+  </head>
+  <body>
+  	<!-- body code goes here -->
+<div class="wrapper">
+
+<div class="header">
+	<div class="row">
+		<div class="col-md-6 logo">
+			<img  src="logo.png" alt=""/>
+		</div>
+
+		<div class="col-md-6">
+			<form class="search">
+               <input type="text" placeholder="Search.." name="search">
+               <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+		</div>
+	</div>
+
+<div class="row">
+<nav class="col-md-9">
+		<a href="#">Home</a>
+		<a class="active" href="#">Necklaces</a>
+		<a href="#">Rings</a>
+		<a href="#">Earings</a>
+		<a href="#">Bracelets</a>
+		<a href="#">Body Jewelry</a>
+		<a href="#">Gifts</a>	   
+ </nav>
+	
+<nav class="col-md-3 rightNav">
+	<a href="#"><i class="fa fa-user"></i> Login/Register</a>
+	<a href="#"><i class="fa fa-shopping-cart"></i> Check out</a>
+	
+</nav>
+ </div>	
+
+	</div>
+<main>
+  <div class="row">
+		<div class="col-md-4"><img src="pexels-photo-1.jpeg"  alt=""/></div>
+		<div class="col-md-4"><img src="2.png" alt=""/></div>
+		<div class="col-md-4"><img src="3.png"  alt=""/></div>
+		<div class="col-md-4"><img src="4.png"  alt=""/></div>
+		<div class="col-md-4"><img src="5.png"  alt=""/></div>
+		<div class="col-md-4"><img src="6.png"  alt=""/></div>	  
+  </div>
+</main>
+	
+<footer>
+	<div class="row">
+	  <section class="section1 col-md-4">
+		<h1>Get to know us</h1>
+		<a href="#">Careers</a>
+		<a href="#">Blog</a>
+	  </section>	
+	  <section class="section2 col-md-4">
+		<h1>Let us help you</h1>
+		<a href="#">Your account</a>
+		<a href="#">Your orders</a>
+	  </section>
+	  <section class="section3 col-md-4">
+		<h1>Polices</h1>
+		<a href="#">Return policy</a>
+	  </section>
+	</div>
+</footer>
+</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
